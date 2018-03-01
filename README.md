@@ -9,7 +9,7 @@ But I had it somewhere on my disk, so.. I've bundled it to the repo.
 
 ## How to use?
 1. Clone the repo first
-2. Check your settings in `data/options.json` first
+2. Check your settings in `data/options.json`
 3. Create some new Discord accounts using any temporary e-mail provider which is not blacklisted by Discord, for example "www.niepodam.pl" (use your regional one)
 4. Verify each account, login to Discord and join any server you want to spam and just forget about it
 5. Fill your account details in `data/auth.json`
