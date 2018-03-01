@@ -1,0 +1,18 @@
+{
+  "authFilePath": "./data/auth.json",
+  "connectedServersAmount": 1,
+  "banCheckInterval": 15000,
+  "sendMessageWaitTime": {
+      "min": 7000,
+      "max": 15000
+  },
+  "sendMessageContent": "Welcome! I want to advertise something to you.\n\nAdvert title:\n- advert message\n\nNeed more info?:\ntest@test.com",
+  "smsSetup": {
+    "sendSMS": false,
+    "twilioSid": "<FILL_TWILIO_SID_HERE>",
+    "twilioAuthToken": "<FILL_TWILIO_AUTH_TOKEN>",
+    "sendTo": "<FILL_YOUR_TELEPHONE_NUMBER>",
+    "sendFrom": "<FILL_TWILIO_TELEPHONE_NUMBER>",
+    "sendTextBody": "All accounts were banned. No more accounts left to spam. Go and add some."
+  }
+}

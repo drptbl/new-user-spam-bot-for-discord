@@ -1,0 +1,5 @@
+{
+  "requireTrailingComma": false,
+  "requireCapitalizedComments": false,
+  "maximumLineLength": false
+}
