@@ -1,0 +1,31 @@
+{
+  "name": "new-user-spam-bot-for-discord",
+  "version": "1.0.0",
+  "description": "Sends a custom message to each new user on server. Bot is not shown as \"bot\" in Discord - still uses old way of authentication.",
+  "author": "drptbl",
+  "scripts": {
+    "start": "./node_modules/.bin/supervisor main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drptbl/new-user-spam-bot-for-discord.git"
+  },
+  "devDependencies": {
+    "eslint": "4.3.0",
+    "babel-eslint": "7.2.3",
+    "babel-cli": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-register": "6.24.1",
+    "eslint-config-walmart": "1.2.4",
+    "eslint-plugin-babel": "4.1.2",
+    "eslint-plugin-filenames": "1.2.0",
+    "eslint-plugin-import": "2.7.0"
+  },
+  "dependencies": {
+    "discord.js": "6.1.0",
+    "superagent": "^1.8.1",
+    "supervisor": "^0.12.0",
+    "twilio": "^3.6.1"
+  }
+}
